@@ -20,6 +20,8 @@ export default defineNuxtConfig({
     "nuxt-schema-org",
     "@nuxt/ui",
     "nuxt-icon",
+    "@vueuse/nuxt",
+    "nuxt-lodash",
   ],
   pinia: {
     storesDirs: ["./stores/**"],
