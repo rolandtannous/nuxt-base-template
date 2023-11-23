@@ -5,6 +5,6 @@
 </template>
 <style scoped>
 * {
-  background-color: green;
+  background-color: white;
 }
 </style>
