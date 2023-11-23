@@ -10,7 +10,12 @@ export default defineNuxtConfig({
   },
   modules: [
     "nuxt-vitest",
-    "@nuxtjs/eslint-module",
+    [
+      "@nuxtjs/eslint-module",
+      {
+        lintOnStart: false,
+      },
+    ],
     "@pinia/nuxt",
     "nuxt-schema-org",
     "@nuxt/ui",
