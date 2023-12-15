@@ -16,7 +16,9 @@ export default defineNuxtConfig({
         lintOnStart: false,
       },
     ],
-    "@pinia/nuxt",
+    ["@pinia/nuxt",{
+      autoImports: ["defineStore","acceptHMRUpdate"]
+    }],
     "nuxt-schema-org",
     "@nuxt/ui",
     "nuxt-icon",
