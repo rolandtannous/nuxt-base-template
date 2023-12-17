@@ -2,7 +2,7 @@
 
 import defaultTheme from "tailwindcss/defaultTheme"; // https://tailwindcss.com/docs/theme#referencing-the-default-theme
 
-module.exports = {
+export default {
   content: [
     "./components/**/*.{js,vue,ts}",
     "./pages/**/*.{js, vue, ts}",
