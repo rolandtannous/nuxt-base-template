@@ -9,7 +9,7 @@ export default defineNuxtConfig({
     },
   },
   modules: [
-    "nuxt-vitest",
+    "@nuxt/test-utils/module",
     [
       "@nuxtjs/eslint-module",
       {
